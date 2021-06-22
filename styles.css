@@ -1,12 +1,57 @@
 body{
-    background-color: rgb(24, 74, 167);
+    background-color: #d4ced8d0;
 }
 img{
-    width: 700px;
-    height: 300px;
+    
 }
 
+button{
+    color: cadetblue;
+    background-color: rgb(78, 11, 236);
+}
 h1{color: #0000ff;
     border-bottom: rgb(95, 5, 122)15px;
 
 }
+.header {
+   /*  margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    margin: 40px 20px 20px 20px;
+    font-size: 0;
+    line-height: 45px;
+    height: 45px;
+    font-family: sans-serif;
+  }
+
+  li{
+      display: inline;
+  }
+  .header> * {
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle;
+      height: 100%;
+      line-height: 45px;
+  }
+  .logo {
+    width: 15%;
+
+}
+  .navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+  }
+  .navbar>*{
+
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .actions{
+      width: 15%;
+      text-align: right;
+      font-size: 14px;
+  }
+ 
